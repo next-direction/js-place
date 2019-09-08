@@ -1,6 +1,6 @@
 # JS Place Website
 
-Dieses Paket erzeugt den Inhalt von JS Place. Es basiert auf dem [Docsify Site Generator](https://docsify.js.org/#/).
+Dieses Paket erzeugt den Inhalt von [JS Place](https://js-place.dokku.online). Es basiert auf dem [Docsify Site Generator](https://docsify.js.org/#/).
 
 Da Docsify im Moment noch keine statischen HTML Seiten erzeugen kann, ist der Start der Dokumentation über die CLI zu erledigen. Dazu muss zunächst über [Node.js](https://nodejs.org/en/) bzw. `npm` das Kommando global installiert werden:
 
