@@ -1,0 +1,3 @@
+- Rechtliches
+    - [Impressum](legal/imprint "Impressum - JS Place")
+    - [Datenschutz](legal/privacy "Datenschutzerklärung - JS Place")
