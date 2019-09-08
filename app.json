@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "dokku": {
+            "predeploy": "npm i docsify-cli -g"
+        }
+    }
+}
