@@ -39,6 +39,6 @@ Mehrzeilige Kommentare werden mit `/*` eingeleitet und mit `*/` beendet. Für ei
  */
 ```
 
-Für JavaScript haben die zusätzlichen `*` keine Bedeutung. Der Entwickler, der den Kommentar liest, findet sich aber sehr schneller zurecht.
+Für JavaScript haben die zusätzlichen `*` keine Bedeutung. Der Entwickler, der den Kommentar liest, findet sich aber dadurch schneller zurecht.
 
 Wenn wir uns in einem späteren Kapitel dann Funktionen anschauen, werde ich euch noch eine dritte Möglichkeit für Kommentare zeigen. Sie ist ähnlich zu den mehrzeiligen Kommentaren und wird dazu dienen, Funktionen für integrierte Entwicklungsumgebungen, kurz IDEs, näher beschreiben zu können.

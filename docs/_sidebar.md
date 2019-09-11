@@ -4,3 +4,8 @@
     - [Einführung](basics/introduction "Einführung - JS Place")
     - [Kommentare](basics/comments "Kommentare - JS Place")
     - [Primitive Datentypen](basics/primitive-types "Primitive Datentypen - JS Place")
+    - [Variablen](basics/variables "Variablen - JS Place")
+    - [Komplexe Datentypen](basics/complex-types "Komplexe Typen - JS Place")
+    - [Funktionen](basics/functions "Funktionen - JS Place")
+    - [Bedingungen](basics/conditions "Bedingungen - JS Place")
+    - [Schleifen](basics/loops "Schleifen - JS Place")
