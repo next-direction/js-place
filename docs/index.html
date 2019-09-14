@@ -59,7 +59,26 @@
         danger: {
           label: "Achtung"
         }
-      }
+      },
+      plugins: [
+        // add rel="noreferrer" to all external links
+        function (hook, vm) {
+          hook.afterEach(function (html, next) {
+            const domParser = new DOMParser();
+            const DOM = domParser.parseFromString(html, 'text/html');
+            const links = DOM.getElementsByTagName('a');
+
+            for (let link of links) {
+
+              if (!link.dataset.id) {
+                link.setAttribute('rel', 'noreferrer');
+              }
+            }
+
+            next(DOM.documentElement.outerHTML);
+          });
+        }
+      ]
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
