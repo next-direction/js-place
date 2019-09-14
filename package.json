@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "Site to learn JavaScript",
   "scripts": {
-    "start": "docsify start docs --port=5000",
-    "dev": "docsify serve docs --port=5000"
+    "dev": "docsify serve docs --port=5000",
+    "start": "docsify start docs -c docs/ssr.config.js --port=5000"
   },
   "repository": {
     "type": "git",
